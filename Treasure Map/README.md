@@ -1,7 +1,6 @@
-# Instructions
-This is a difficult challenge. 💪
+# Treasure Map
 
-You are going to write a program that will mark a spot on a map with an X.
+A program that will mark a spot on a map with an X.
 
 In the starting code, you will find a variable called map.
 
