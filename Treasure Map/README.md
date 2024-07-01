@@ -17,3 +17,9 @@ This is a bit hard to work with. So on lines 6 and 23, we've used this line of c
 
 ['⬜️', '⬜️', '⬜️']
 Now it looks a bit more like the coordinates of a real map:
+
+<img width="391" alt="image" src="https://github.com/SaadNoor01/Projects/assets/174381924/385c0780-7e2b-4739-829b-c15656196c05">
+
+Your job is to write a program that allows you to mark a square on the map using a letter-number system.
+
+
