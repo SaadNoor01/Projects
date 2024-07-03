@@ -10,10 +10,9 @@ word_length = len(chosen_word)
 end_of_game = False
 lives = 6
 
-
 print(logo)
 
-#Create blanks
+# Create blanks
 display = []
 for _ in range(word_length):
     display += "_"
