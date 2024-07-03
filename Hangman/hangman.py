@@ -1,21 +1,48 @@
+from replit import clear
 import random
-word_list = ["aardvark", "baboon", "camel"]
+
+from hangman_words import word_list
+
 chosen_word = random.choice(word_list)
+word_length = len(chosen_word)
 
-#Testing code
-print(f'The solution is {chosen_word}.')
+end_of_game = False
+lives = 6
 
+from hangman_art import logo
+print(logo)
+
+#Create blanks
 display = []
-for x in chosen_word:
+for _ in range(word_length):
     display += "_"
-print(display)
 
-guess = input("Guess a letter: ").lower()
+while not end_of_game:
+    guess = input("Guess a letter: ").lower()
+    
+    clear()
+    
+    if guess in display:
+        print(f"You already tried {guess}")
+    # Check guessed letter
+    for position in range(word_length):
+        letter = chosen_word[position]
 
-ind_num = 0
-for letter in chosen_word:
-    ind_num += 1
-    if letter == guess:
-        display[ind_num - 1] = letter
+        if letter == guess:
+            display[position] = letter
 
-print(display)
+    if guess not in chosen_word:
+        lives -= 1
+        print(f"The letter {guess} is not in the word, you lost a life!")
+        if lives == 0:
+            end_of_game = True
+            print("You lose.")
+            
+    from hangman_art import stages
+    print(stages[lives])
+    
+    print(f"{' '.join(display)}")
+
+    if "_" not in display:
+        end_of_game = True
+        print("You win!")
