@@ -3,7 +3,7 @@ word_list = ["aardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
 
 #Testing code
-print(f'the solution is {chosen_word}.')
+print(f'The solution is {chosen_word}.')
 
 display = []
 for x in chosen_word:
@@ -12,10 +12,10 @@ print(display)
 
 guess = input("Guess a letter: ").lower()
 
-for letter in chosen_word: # in-progress
+ind_num = 0
+for letter in chosen_word:
+    ind_num += 1
     if letter == guess:
-        ind1 = chosen_word.index(letter)
-        display[ind1] = letter
-
+        display[ind_num - 1] = letter
 
 print(display)
