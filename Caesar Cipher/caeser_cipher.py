@@ -17,8 +17,8 @@ def caesar(start_text, shift_amount, cipher_direction):
 from art import logo
 print(logo)
 
-cont = "yes"
-while cont == "yes":
+cont = True
+while cont:
   direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
   text = input("Type your message:\n").lower()
   shift = int(input("Type the shift number:\n"))
@@ -29,5 +29,6 @@ while cont == "yes":
   caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
   
   cont = input('\nWould you like to continue? Type "yes" to continue or "no" to exit\n')
-
-print("Goodbye!")
+  if cont != "yes":
+    cont = False
+    print("Goodbye!")
