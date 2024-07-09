@@ -13,8 +13,8 @@ Write a program using an `if/elif/else` statement so Reeborg can find the exit. 
 
 <img width="1040" alt="image" src="https://github.com/SaadNoor01/Projects/assets/174381924/ebdea801-abf1-4e7b-9b0b-932563061cf8">
 
-![](https://github.com/SaadNoor01/Projects/blob/main/Automating%20Reeborg's%20World/hurdle.gif  | width=100)
-
+![](https://github.com/SaadNoor01/Projects/blob/main/Automating%20Reeborg's%20World/hurdle.gif)
+<img src="hurdle.gif" width="250" height="250"/>
 
 
 
