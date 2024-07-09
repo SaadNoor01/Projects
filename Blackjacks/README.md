@@ -1,6 +1,6 @@
 <img width="942" alt="image" src="https://github.com/SaadNoor01/Projects/assets/174381924/53310a79-6b0f-4f06-8bb4-a6f0a6521f2b">
 
-# Our Blackjack House Rules #
+# Our Blackjack House Rules ♤ #
 
 * The deck is unlimited in size. 
 * There are no jokers. 
