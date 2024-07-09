@@ -1,5 +1,5 @@
-from replit import clear
 import random
+from replit import clear
 from art import logo
 
 def deal_card():
