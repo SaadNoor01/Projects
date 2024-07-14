@@ -96,3 +96,6 @@ elif choice in drink_choice.keys():
         print(f"Your change is: ${change}")
 
 # make coffee
+# subtract ingredients for drink from the resources
+
+
