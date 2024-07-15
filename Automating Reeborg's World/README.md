@@ -13,7 +13,7 @@ Write a program using an `if/elif/else` statement so Reeborg can find the exit. 
 
 ![hurdle_jump](https://github.com/user-attachments/assets/58a1ebdb-1350-4325-9331-472d362332a1)(width="2000" height="500")
 
-<img src="https://github.com/user-attachments/assets/58a1ebdb-1350-4325-9331-472d362332a1" width="1500" height="300"/>
+<img src="https://github.com/user-attachments/assets/58a1ebdb-1350-4325-9331-472d362332a1" width="1000" height="500"/>
 
 
 
