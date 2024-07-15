@@ -14,7 +14,7 @@ Write a program using an `if/elif/else` statement so Reeborg can find the exit. 
 
 # Lost in a maze
 
-<img src="https://github.com/user-attachments/assets/72cab7fe-e8d8-4cb7-a728-1ee5b885957a" width="750" height="600"/>
+<img src="https://github.com/user-attachments/assets/72cab7fe-e8d8-4cb7-a728-1ee5b885957a" width="750" height="500"/>
 
 
 
