@@ -7,7 +7,8 @@ Reeborg was exploring a dark maze and the battery in its flashlight ran out.
 Write a program using an `if/elif/else` statement so Reeborg can find the exit. The secret is to have Reeborg follow along the right edge of the maze, turning right if it can, going straight ahead if it can’t turn right, or turning left as a last resort.
 
 # Lost in a maze
-![escaping_maze](https://github.com/user-attachments/assets/35cd2665-a5b0-4fef-a79a-362645b37192)
+
+![escaping_maze (1)](https://github.com/user-attachments/assets/72cab7fe-e8d8-4cb7-a728-1ee5b885957a)
 
 
 
