@@ -11,7 +11,8 @@ Write a program using an `if/elif/else` statement so Reeborg can find the exit. 
 
 ## Hurdle Jumping
 
-<img src="hurdle_jump.gif"/>
+![hurdle_jump](https://github.com/user-attachments/assets/58a1ebdb-1350-4325-9331-472d362332a1)
+
 
 
 
