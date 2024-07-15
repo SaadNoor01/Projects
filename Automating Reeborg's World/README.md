@@ -8,7 +8,9 @@ Reeborg was exploring a dark maze and the battery in its flashlight ran out.
 
 Write a program using an `if/elif/else` statement so Reeborg can find the exit. The secret is to have Reeborg follow along the right edge of the maze, turning right if it can, going straight ahead if it can’t turn right, or turning left as a last resort.
 
-<img src="https://github.com/user-attachments/assets/72cab7fe-e8d8-4cb7-a728-1ee5b885957a" width="750" height="400"/>
+<img src="https://github.com/user-attachments/assets/b0d39c3c-6b18-4c93-b1f2-274fc8243040" width="750" height="400"/>
+
+
 
 
 ## Hurdle Jumping
