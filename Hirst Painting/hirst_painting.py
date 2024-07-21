@@ -8,31 +8,39 @@ colors = [(144, 76, 50), (188, 165, 117), (248, 244, 246), (166, 153, 36), (14, 
           (206, 182, 195), (68, 48, 63), (73, 51, 71), (173, 201, 194), (175, 198, 201),
           (213, 182, 176), (37, 47, 45)]
 
-t = Turtle()
-screen = Screen()
-t.penup()
-screen.colormode(255)
-y = -250
-counter = 0
 
-
-def create_row():
+def create_row(t):
     for i in range(10):
         t.dot(20, random.choice(colors))
         t.fd(50)
 
 
-def reposition():
+def reposition(t, y, counter):
     t.teleport(-300, (y + (counter * 50)))
 
 
-while counter != 10:
-    reposition()
-    create_row()
-    counter += 1
+def main():
+    t = Turtle()
+    screen = Screen()
+    t.penup()
+    t.speed(0)
+    t.hideturtle()
+    screen.colormode(255)
+    y = -250
+    counter = 0
 
-screen.exitonclick()
+    while counter != 10:
+        reposition(t, y, counter)
+        create_row(t)
+        counter += 1
 
+    screen.exitonclick()
+
+
+if __name__ == '__main__':
+    main()
+
+    
 # The code below was used to extract the rgb values from painting.jpg
 # import colorgram
 # colors = colorgram.extract('painting.jpg', 30)
