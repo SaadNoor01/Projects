@@ -1,3 +1,4 @@
 # Hirst Painting
 
-![image](https://github.com/user-attachments/assets/7ea7d5c3-d213-4b7d-aa21-1883a01b510d)
+<img width="375" alt="image" src="https://github.com/user-attachments/assets/58c9124d-2efb-4190-9878-dc4074bbdfd4">
+
