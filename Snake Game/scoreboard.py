@@ -9,12 +9,12 @@ class Scoreboard(Turtle):
         self.board.penup()
         self.board.color("white")
         self.board.hideturtle()
+        self.hideturtle()
         self.board.goto(0, 270)
         self.score = 0
         with open("data.txt", mode="r") as file:
             self.highscore = int(file.read())
 
-        # self.highscore = int(content)
         self.board.write(f"Score: {self.score}   High Score: {self.highscore}", False, "center",
                          ("Courier", 24, "normal"))
 
